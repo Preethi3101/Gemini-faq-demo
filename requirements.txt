@@ -1,5 +1,4 @@
 PyPDF2
-python-dotenv
 streamlit
 numpy
 pandas
