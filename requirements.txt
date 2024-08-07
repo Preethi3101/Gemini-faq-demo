@@ -1,20 +1,10 @@
-langchain
-PyPDF2
-python-dotenv
-streamlit
-openai
-faiss-cpu
-altair
-tiktoken
-numpy
-pandas
-nltk
-google-generativeai
-openpyxl
-xlsxwriter
-# uncomment to use huggingface llms
-# huggingface-hub==0.14.1
-
-# uncomment to use instructor embeddings
-# InstructorEmbedding==1.0.1
-# sentence-transformers==2.2.2
+numpy==1.26.4
+faiss-cpu==1.8.0
+langchain==0.1.16
+langchain_google_genai==1.0.2
+openai==0.28.0
+PyPDF2==3.0.1
+python-dotenv==1.0.1
+streamlit==1.33.0
+transformers==4.36.2
+replicate
