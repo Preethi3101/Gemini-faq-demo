@@ -89,7 +89,8 @@ def main():
                         Below is a transcript of conversations that contains content related to {topic}.
                         Please consider only the sentences with the keyword {topic} 
                         Please extract the top 10 frequently asked questions (FAQs) about {topic} from the content. 
-                        Ensure to pick each question that appears greater than 35 times in the transcript. 
+                        Ensure to pick each question that appears greater than 20 times in the transcript. 
+                        If you could not find 10 questions, produce less than 10 correct ones rather than producing 10 with incorrect responses.
                         Provide only the questions with the frequency of occurance greater than 35, not the answers, and make sure all questions are unique and related to the context of {topic}.
                         Please use varied question tags for a single response as in what why where can How etc.,
                         Your Response should contain question and its frequency.
